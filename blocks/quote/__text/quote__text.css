@@ -1,0 +1,11 @@
+@import url("./_type/quote__text_type_long.css");
+
+.quote__text{
+  font-size: 2.75rem;
+}
+
+@media screen and (max-width: 992px) {
+  .quote__text {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,7 @@
+.quote__button_type_tweet {
+  background: url('../../../../img/twitter-brands.svg')  no-repeat center;
+}
+
+.quote__button_type_tweet:hover {
+  background: url('../../../../img/twitter-brands-blue.svg')  no-repeat center;
+}

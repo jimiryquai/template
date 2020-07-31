@@ -1,0 +1,26 @@
+@import url("./_type/quote__button_type_tweet.css");
+
+.quote__button {
+  font: inherit;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  background-color: #333;
+  box-shadow: 0 0.3rem rgba(121, 121, 121, 0.65);
+  transition: all .2s ease-in-out; 
+}
+
+.quote__button:hover {
+  background-color: #333;
+  filter: opacity(90%);
+}
+
+.quote__button:active {
+  transform: translate(0, 0.3rem);
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
